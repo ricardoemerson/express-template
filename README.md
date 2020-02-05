@@ -1,8 +1,8 @@
 # NodeJS with Express Template Project
 
 ## Features
+
 - ESLint using AirBnB style guide sintax;
-- Root import with `~`;
 - Organization of imports;
 - Cors enabled;
 - Control of Enviroments Variables with dotenv library using the root file `.dotenv`;
@@ -13,6 +13,7 @@
 ## Running the Project
 
 ### Normal execution:
+
 ```sh
 # With Yarn
 yarn dev
@@ -21,7 +22,18 @@ yarn dev
 npm run dev
 ```
 
+### Build for production:
+
+```sh
+# With Yarn
+yarn build
+
+# With Npm
+npm run build
+```
+
 ### For use VSCode with debug:
+
 ```sh
 # With Yarn
 yarn dev:debug
